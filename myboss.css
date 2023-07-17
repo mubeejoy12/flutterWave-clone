@@ -1,0 +1,5 @@
+.rate {
+  display: flex;
+  line-height: 0.2;
+  gap: 10px;
+}

@@ -1,0 +1,55 @@
+#flutter_icon {
+  width: 10em;
+}
+
+#login {
+  width: 23%;
+  background-color: white;
+  margin: 160px 0px 0px 160px;
+  height: 35vh;
+  padding-top: 30px;
+}
+#body {
+  background-color: rgb(249, 249, 249);
+}
+#loginButton {
+  height: 50px;
+  width: 70%;
+  margin-left: 20px;
+}
+#exampleInputEmail1 {
+  width: 70%;
+  margin-left: 20px;
+}
+::placeholder {
+  font-size: 12px;
+}
+#exampleInputPassword1 {
+  width: 70%;
+  margin-left: 20px;
+}
+#instr_login {
+  margin-left: 20px;
+  font-size: 14px;
+}
+#forget_password {
+  font-size: 10px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+#footer {
+  margin-top: 270px;
+}
+#mainFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#mainFooter2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-right: 20px;
+}
