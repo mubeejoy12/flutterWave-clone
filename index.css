@@ -697,38 +697,7 @@ h4 span {
   }
 }
 
-/* .advert_Company {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-} */
-/* .advert {
-  position: absolute;
-  max-width: 800px;
-  height: 80vh;
-  top: 49.4em;
-  background: url(/foot-city.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
-.goal_details {
-  position: absolute;
-  max-width: 350px;
-  right: 209px;
-  top: 1300px;
-  font-size: 20px;
-}
-.advert2 {
-  position: absolute;
-  width: 560px;
-  height: 83vh;
-  right: 0px;
-  background: url(/chemistMama.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-} */
 
 .container {
   display: grid;
@@ -1154,7 +1123,7 @@ h4 span {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    /* margin-top: 220px; */
+  
   }
   .ones h5 {
     font-size: 20px;
@@ -1181,7 +1150,7 @@ h4 span {
   }
   .twos img {
     width: 100%;
-    /* height: auto; */
+  
 
     max-height: 42rem;
     object-fit: contain;
@@ -1191,7 +1160,6 @@ h4 span {
     display: flex;
     flex-direction: column;
     gap: 70px;
-    /* margin-top: 120px; */
   }
   .threes_one {
     display: flex;
@@ -1263,7 +1231,7 @@ h4 span {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    /* margin-top: 220px; */
+
   }
   .ones h5 {
     font-size: 15px;
@@ -1290,7 +1258,7 @@ h4 span {
   }
   .twos img {
     width: 100%;
-    /* height: auto; */
+
 
     max-height: 42rem;
     object-fit: contain;
@@ -1301,7 +1269,7 @@ h4 span {
     display: flex;
     flex-direction: column;
     gap: 70px;
-    /* margin-top: 120px; */
+
   }
   .threes_one {
     display: flex;
@@ -1432,283 +1400,6 @@ h4 span {
   width: 80px;
 }
 
-/* @media (max-width: 1189px) {
-  .advert_Company {
-    position: relative;
-    border: 2px solid yellow;
-  }
-
-  .advert {
-    position: absolute;
-    width: 800px;
-    height: 80vh;
-    top: 49.4em;
-    background: url(/foot-city.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 100%;
-  }
-
-  .goal_details {
-    position: absolute;
-    max-width: 350px;
-    right: 209px;
-    top: 1300px;
-    font-size: 20px;
-  }
-  .advert2 {
-    position: absolute;
-    width: 560px;
-    height: 83vh;
-    right: 0px;
-    background: url(/chemistMama.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-} */
-
-/* #h4 {
-  font-size: 2.4rem;
-}
-#container-md p {
-  font-size: 0.5rem;
-  font-weight: lighter;
-  line-height: 1.6rem;
-  margin-bottom: 2rem;
-  max-width: 22rem;
-}
-#container-md {
-  max-width: 50rem;
-  margin-top: 60px;
-}
-.container-md .creat_free {
- max-width: 120px;
-  height: 55px;
-  background-color: #000;
-  color: white;
-  border-radius: 10px;
-  font-size: 10px;
-  border: none;
-}
-.contact_Sale {
- max-width: 100px;
-  height: 55px;
-  border-radius: 10px;
-  font-size: 10px;
-  border: none;
-} */
-
-/* @media (max-width: 612px) {
-  #container-md {
-    max-width: 40rem;
-    margin-top: 60px;
-
-  }
-  #h4 {
-    font-size: 3.7rem;
-  }
-  #container-md p {
-    font-size: 0.99rem;
-    font-weight: lighter;
-    line-height: 1.9rem;
-    margin-bottom: 2rem;
-    max-width: 40rem;
-  }
-  #creat_free_btn_all {
-    width: 180px;
-    height: 0px;
-    font-size: 10px;
-  }
-} */
-/* @media (max-width: 511px) {
-  #container-md {
-    max-width: 30rem;
  
-    margin-top: 55px;
 
-  }
-  #h4 {
-    font-size: 3.3rem;
-  }
-  #container-md p {
-    font-size: 0.99rem;
-    font-weight: lighter;
-    line-height: 1.9rem;
-    margin-bottom: 2rem;
-    max-width: 40rem;
-  }
-  #creat_free_btn_all {
-    width: 180px;
-    height: 0px;
-    font-size: 10px;
-  }
-} */
 
-/* .mainNav {
-
-  padding: 0px 100px;
-}
-.navContainer {
- 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 0px 20px 0px;
-}
-.flutterLogo {
-  width: 150px;
-}
-.navContainer ul {
-  display: flex;
-  gap: 32px;
- 
-}
-.navContainer ul li a {
-  color: #262c55;
-  font-size: 1.05rem;
-  cursor: pointer;
-}
-.signIn_btn {
-  width: 8rem;
-  height: 3rem;
-  border-radius: 10px;
-  border: none;
-  background-color: #eee;
-  color: #000;
-  cursor: pointer;
-}
-.signIn_btn:hover {
-  background-color: rgba(2, 2, 36, 0.836);
-  transition: all 0.3s ease;
-  color: white;
-}
-.nav-item {
-  position: relative;
-}
-
-.nav-item .list1 {
-  display: none;
-  position: absolute;
-  width: 20vw;
-  height: 31vh;
-  background-color: rgb(239, 239, 214);
-  left: -45px;
-  border-radius: 10px;
-}
-.subPayment {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-  padding: 25px 0px 0px 20px;
-  box-shadow: #262c55;
-}
-.subPayment {
-  font-size: 20px;
-}
-.subPayment ul {
-  line-height: 1.4;
-}
-
-.payment_description {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.2;
-}
-
-.nav-item:hover div {
-  display: flex;
-  flex-direction: column;
-}
-
-.nav-item .commerce {
-  display: none;
-  width: 20vw;
-  height: 31vh;
-  background-color: rgb(239, 239, 214);
-  left: -45px;
-  border-radius: 10px;
-  position: absolute;
-}
-.circle {
-  width: 40px;
-  height: 40px;
-  border-radius: 25%;
-  background-color: aqua;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#list {
-  display: none;
-}
-
-@media (max-width: 984px) {
-  .navContainer ul {
-    display: none;
-  }
-  #list {
-    display: block;
-    font-size: 50px;
-  }
-  .signIn_btn {
-    display: none;
-  }
-}
-h4 {
-  font-size: 7rem !important;
-  line-height: 7.2rem !important;
-  font-family: "Millik", sans-serif;
-  font-weight: 500;
-  letter-spacing: -0.03em;
-  margin-bottom: 2rem;
-}
-h4 span {
-  color: rgb(248, 125, 32);
-}
-.black_text {
-  color: #000;
-}
-.container-md p {
-  font-size: 1.5rem;
-  font-weight: lighter;
-  line-height: 1.9rem;
-  margin-bottom: 2rem;
-  max-width: 40rem;
-}
-.container-md {
-  border: 2px solid yellow;
-  width: 50rem;
-
-  margin-left: 90px;
-  margin-top: 60px;
-}
-.container-md div {
-  display: flex;
-  gap: 20px;
-}
-
-.container-md .creat_free {
-  width: 200px;
-  height: 55px;
-  background-color: #000;
-  color: white;
-  border-radius: 10px;
-  font-size: 15px;
-  border: none;
-}
-.contact_Sale {
-  width: 150px;
-  height: 55px;
-  border-radius: 10px;
-  font-size: 15px;
-  border: none;
-}
-
-@media (max-width: 900px) {
-  .container-md h4 {
-    font-size: 5rem;
-    line-height: 4.2;
-  }
-} */
